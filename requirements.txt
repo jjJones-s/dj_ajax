@@ -1,0 +1,12 @@
+asgiref==3.8.1
+distlib==0.3.9
+Django==5.1.7
+django-crispy-forms==2.3
+filelock==3.18.0
+pillow==11.2.0
+platformdirs==4.3.7
+pywin32==308
+sqlparse==0.5.3
+tzdata==2025.2
+VapourSynth @ file:///C:/Program%20Files/VapourSynth/python/VapourSynth-70-cp312-cp312-win_amd64.whl#sha256=dd0f35645a8525d4892ce26fce4ec617a68a77c1f07aa8ce9b0b4e8e3123b426
+virtualenv==20.30.0
