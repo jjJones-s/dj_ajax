@@ -106,7 +106,7 @@ def delete_post(request, pk):
 
 def image_upload_view(request):
     if request.method == 'POST':
-        img = request.FILES.get('image')
+        img = request.FILES.get('file')
         new_post_id = request.POST.get('new_post_id')
         post = Post.objects.get(pk=new_post_id)
         Photo.objects.create(post=post, image=img)
